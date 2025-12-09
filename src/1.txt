@@ -1,0 +1,41 @@
+kitchen
+###
+A room full of dishes that where suposed to be cleaned.
+but, whoever lived here, never got to it
+###
+!gold
+###
+none
+###
+!monster
+###
+none
+###
+UP
+the squeaking door opens after a while of struggling.
+While you are searching the fridge for something useful,  bugs and mold begin pouring out of it.
+EVENT1
+?
+DOWN
+nothing to find here
+?
+LEFT
+nothing to find here
+?n
+RIGHT
+nothing to find here
+###
+EVENT1
+,,,
+fryingPan
+,,,
+
+
+
+
+
+
+
+
+
+[[fryingPan]]
