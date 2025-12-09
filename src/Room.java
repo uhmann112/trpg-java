@@ -49,17 +49,18 @@ public class Room {
             this.gold =0;
         }else{
             this.hasGold =true;
-            this.gold = Integer.parseInt(arr[3]);
+            this.gold = Integer.parseInt(arr[3].trim());
         }
         if(arr[4].contains("!")){
             this.hasMonster =false;
             this.monster=null;
         }else{
             this.hasMonster =true;
-            int monsterIndex = Integer.parseInt(arr[5]);
+            int monsterIndex = Integer.parseInt(arr[5].trim());
             this.monster = new Monster(monsterIndex);
         }
         String[] temp = arr[6].split("/");
+        this.optionDescriprions = new String[temp.length];
         for (int i = 0; i < temp.length-1; i++) {
             this.optionDescriprions[i]=temp[i];
         }
