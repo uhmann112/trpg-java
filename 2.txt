@@ -1,0 +1,29 @@
+Innenhof
+###
+you are finally in fresh air.
+the wind calms you a bit. but the openness of this place doesn't just heal you from the claustrophobic feeling of the mansion. in some way you feel vulnerable and small in this huge place.
+###
+gold
+###
+200
+###
+monster
+###
+2
+###
+UP
+as you approach the door on the opposing side of the courtyard, you  hear a rumbling to your right!
+Before you are able to react a Monster appears and attack you.
+EVENT1
+/
+DOWN
+
+nothing to find here
+/
+LEFT
+a small wooden box, turned upside down and used as a table.
+On it sits  a letter with wet drops on it. as if someone cried while reading it.
+nothing to find here
+/
+RIGHT
+nothing to find here

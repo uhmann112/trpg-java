@@ -56,7 +56,8 @@ public class Room {
             this.monster=null;
         }else{
             this.hasMonster =true;
-            this.monster = new Monster();
+            int monsterIndex = Integer.parseInt(arr[5]);
+            this.monster = new Monster(monsterIndex);
         }
         String[] temp = arr[6].split("/");
         for (int i = 0; i < temp.length-1; i++) {

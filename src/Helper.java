@@ -11,4 +11,8 @@ public class Helper {
         System.out.print(content);
         System.out.println("=======");
     }
+
+    public  void printStuff(String content){
+
+    }
 }
