@@ -13,6 +13,6 @@ public class Helper {
     }
 
     public  void printStuff(String content){
-
+        System.out.print(content);
     }
 }

@@ -11,7 +11,7 @@ public class Room {
     private Monster monster;
     private int previous;
     public String description;
-    public String[] optionDescriprions;
+    public String[] optionDescriptions;
     private Helper h = new Helper();
 
     public Room(int idNumber){
@@ -60,16 +60,19 @@ public class Room {
             this.monster = new Monster(monsterIndex);
         }
         String[] temp = arr[6].split("/");
-        this.optionDescriprions = new String[temp.length];
+        this.optionDescriptions = new String[temp.length];
         for (int i = 0; i < temp.length-1; i++) {
-            this.optionDescriprions[i]=temp[i];
+            this.optionDescriptions[i]=temp[i];
         }
     }
 
     public void showInitialState(){
         h.cleco();
         h.printTitle(this.NAME);
-        h.printTitle(this.description);
+        h.printStuff(this.description);
+
+        for (int i = 0; i < optionDescriptions.length-1; i++) {
+            h.printStuff(optionDescriptions[i]);
+        }
     }
 }
-//lol
