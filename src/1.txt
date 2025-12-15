@@ -11,31 +11,21 @@ none
 ###
 none
 ###
-UP
+UP/
 the squeaking door opens after a while of struggling.
 While you are searching the fridge for something useful,  bugs and mold begin pouring out of it.
-EVENT1
-?
-DOWN
+EVENT3
+
+DOWN/
 nothing to find here
-?
-LEFT
+hurensohn
+LEFT/
 nothing to find here
-?n
-RIGHT
+hurensohn
+RIGHT/
 nothing to find here
 ###
-EVENT1
-,,,
-fryingPan
-,,,
+1
+###
+2
 
-
-
-
-
-
-
-
-
-[[fryingPan]]

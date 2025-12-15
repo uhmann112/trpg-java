@@ -1,8 +1,9 @@
 public class Player {
 
     public String name;
-    public int strength;
-    public int LP;
+    public int strength =10;
+    public int LP =100;
+    public int gold=0;
 
     public Player(String name){
         this.name=name;
@@ -10,13 +11,14 @@ public class Player {
     }
 
     public void setLP(int modifier){
-        if(modifier<0){
-            if((this.LP-modifier)<=0){
-                sendSignal("dedge");
-            }
-        }else{
-            this.LP = this.LP + modifier;
-        }
+       this.LP+=modifier;
+    }
+    public void setStrenght(int modifier){
+        this.strength +=modifier;
+    }
+
+    public int getLP() {
+        return LP;
     }
 
     public int getStrength() {
@@ -27,7 +29,15 @@ public class Player {
         this.strength = strength;
     }
 
-    public void sendSignal(String status){
-        //TODO: signale senden an den MANAGER oder die MAINKLASSE
+    public void setGold(int gold) {
+        this.gold = gold;
+    }
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void dead(){
+
     }
 }
