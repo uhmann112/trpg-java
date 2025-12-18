@@ -48,7 +48,7 @@ public class Helper {
     }
 
     public void waitForInput(){
-        System.out.println("enter zum weitermachen");
+        System.out.println("Enter zum weitermachen");
         Scanner sc = new Scanner(System.in);
         String lol = sc.nextLine();
     }
